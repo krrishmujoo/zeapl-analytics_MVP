@@ -1,0 +1,51 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+node_modules_node24_backup/
+dist/
+build/
+.vite/
+
+# VS Code and IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated Zeapl runtime artifacts
+backend/configs/
+backend/schemas/
+backend/models/
+backend/qa_test_questions*_results.json
+
+# Private datasets and uploaded files
+backend/uploads/
+backend/data/
+data/
+*.csv
+*.xlsx
+*.xls
+# Local workspace and runtime data
+*.code-workspace
+backend/data.json

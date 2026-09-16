@@ -1,0 +1,17 @@
+# Python environments
+.venv/
+venv/
+.venv_broken/
+backend/.venv_broken/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Frontend build output
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+.env
